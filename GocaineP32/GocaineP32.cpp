@@ -3,6 +3,14 @@
 
 #include "framework.h"
 #include "GocaineP32.h"
+#include <windows.h>
+#include <tchar.h>
+
+#include "cpudef.h"
+
+extern "C" UINT32 CPU_ADRSMASK=0;
+
+extern "C" UINT32 ia32memaccess(int prm_0, int prm_1, int prm_2);
 
 #define MAX_LOADSTRING 100
 
@@ -26,6 +34,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // TODO: ここにコードを挿入してください。
+    CPU_SET_MACTLFC(ia32memaccess);
 
     // グローバル文字列を初期化する
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
