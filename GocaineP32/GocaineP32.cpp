@@ -8,7 +8,7 @@
 
 #include "cpudef.h"
 
-extern "C" UINT32 CPU_ADRSMASK;
+extern "C" UINT32 CPU_ADRSMASK=0;
 
 extern "C" UINT32 ia32memaccess(int prm_0, int prm_1, int prm_2);
 

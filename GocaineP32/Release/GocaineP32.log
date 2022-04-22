@@ -1,6 +1,10 @@
-﻿  GocaineP32.cpp
-  msdos.cpp
-C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.h(218,16): error C5208: typedef 名で使用されている名前のないクラスでは、静的でないデータ メンバー、メンバーの列挙値、メンバー クラス以外のメンバーを宣言できません
-C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.h(1173,16): error C5208: typedef 名で使用されている名前のないクラスでは、静的でないデータ メンバー、メンバーの列挙値、メンバー クラス以外のメンバーを宣言できません
-C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.cpp(16,35): warning C4273: 'CPU_A20_LINE': dll リンケージが一貫していません。
-C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\cpudef.h(49,21): message : 'CPU_A20_LINE' の以前の定義を確認してください
+﻿  msdos.cpp
+C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.cpp(20,15): warning C4805: '==': 演算中の 'BOOL' 型と 'bool' 型の混用は安全ではありません
+C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.cpp(26,35): warning C4273: 'CPU_A20_LINE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\cpudef.h(42,21): message : 'CPU_A20_LINE' の以前の定義を確認してください
+     ライブラリ C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.lib とオブジェクト C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.exp を作成中
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 66 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  GocaineP32.vcxproj -> C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.exe

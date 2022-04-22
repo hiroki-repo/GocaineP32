@@ -8,6 +8,8 @@
 #ifndef _MSDOS_H_
 #define _MSDOS_H_
 
+#pragma warning(disable : 5208)
+
 #pragma pack(1)
 typedef union {
 	UINT32 dw;

@@ -8,7 +8,17 @@
 #include "common.h"
 #include "msdos.h"
 
+#include "Setupapi.h"
+
+#include "Windows.h"
+
 #include "cpudef.h"
+
+inline void CPU_IRQ_LINE(BOOL state)
+{
+	//irq_pending = state;
+	if (state == true) { CPU_REQ_INTERRUPT_IN(pic_ack()); }
+}
 
 extern "C" UINT32 CPU_ADRSMASK;
 UINT32 addr4mac;
@@ -2485,6 +2495,7 @@ long get_section_in_exec_file(FILE *fp, const char *name)
 
 bool is_started_from(const char *name)
 {
+#if 0
 	HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
 	bool result = false;
 	
@@ -2517,6 +2528,8 @@ bool is_started_from(const char *name)
 		CloseHandle(hSnapshot);
 	}
 	return(result);
+#endif
+	return 0;
 }
 
 bool is_started_from_console()
@@ -2849,6 +2862,8 @@ bool is_cursor_blink_off()
 	return(result != 0);
 }
 
+#if 0
+
 void get_sio_port_numbers()
 {
 	SP_DEVINFO_DATA DeviceInfoData = {sizeof(SP_DEVINFO_DATA)};
@@ -2888,6 +2903,8 @@ void get_sio_port_numbers()
 		}
 	}
 }
+
+#endif
 
 #define IS_NUMERIC(c) ((c) >= '0' && (c) <= '9')
 
@@ -9329,6 +9346,7 @@ inline void pcbios_int_15h_e8h()
 		break;
 	}
 }
+#endif
 
 bool pcbios_is_key_buffer_empty()
 {
@@ -9450,6 +9468,8 @@ void pcbios_update_key_code(bool wait)
 #endif
 	}
 }
+
+#if 0
 
 DWORD WINAPI pcbios_int_16h_00h_thread(LPVOID)
 {
@@ -19442,7 +19462,7 @@ void hardware_init()
 {
 	CPU_INIT();
 	CPU_RESET();
-	CPU_SET_I_FLAG(1);
+	//CPU_SET_I_FLAG(1);
 /*#if defined(HAS_I386)
 	cpu_type = (CPU_EDX >> 8) & 0x0f;
 	cpu_step = (CPU_EDX >> 0) & 0x0f;
@@ -21604,7 +21624,7 @@ void debugger_write_io_byte(UINT32 addr, UINT8 val)
 	case 0xd0: case 0xd2: case 0xd4: case 0xd6: case 0xd8: case 0xda: case 0xdc: case 0xde:
 		dma_write(1, (addr - 0xc0) >> 1, val);
 		break;
-#ifdef USE_SERVICE_THREAD
+#if 0//def USE_SERVICE_THREAD
 	case 0xf7:
 		// dummy i/o for BIOS/DOS service
 		if(in_service && cursor_moved) {
