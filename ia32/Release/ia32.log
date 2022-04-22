@@ -1,0 +1,200 @@
+﻿  pch.cpp
+  np21_i386.cpp
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(106,1): warning C4273: 'CPU_SET_MACTLFC': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(56,21): message : 'CPU_SET_MACTLFC' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(112,36): warning C4273: 'CPU_BUS_SIZE_CHANGE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(99,21): message : 'CPU_BUS_SIZE_CHANGE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(224,64): warning C4293: '>>': シフト数が負の値であるか、大きすぎます。定義されていない動作です
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(324,1): warning C4273: 'CPU_SWITCH_PM': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(90,21): message : 'CPU_SWITCH_PM' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(343,1): warning C4273: 'CPU_SET_OP32': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(88,21): message : 'CPU_SET_OP32' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(348,1): warning C4273: 'CPU_SET_AS32': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(89,21): message : 'CPU_SET_AS32' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(354,1): warning C4273: 'CPU_GET_REG': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(57,23): message : 'CPU_GET_REG' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(359,1): warning C4273: 'CPU_SET_REG': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(58,21): message : 'CPU_SET_REG' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(364,1): warning C4273: 'CPU_GET_SYSREG': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(64,23): message : 'CPU_GET_SYSREG' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(369,1): warning C4273: 'CPU_SET_SYSREG': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(65,21): message : 'CPU_SET_SYSREG' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(374,1): warning C4273: 'CPU_GET_SYSREG_DESC': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(66,23): message : 'CPU_GET_SYSREG_DESC' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(379,1): warning C4273: 'CPU_SET_SYSREG_DESC': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(67,21): message : 'CPU_SET_SYSREG_DESC' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(384,1): warning C4273: 'CPU_GET_SYSREG_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(68,23): message : 'CPU_GET_SYSREG_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(389,1): warning C4273: 'CPU_SET_SYSREG_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(69,21): message : 'CPU_SET_SYSREG_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(394,1): warning C4273: 'CPU__GET_CR0': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(70,23): message : 'CPU__GET_CR0' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(399,1): warning C4273: 'CPU__SET_CR0': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(71,21): message : 'CPU__SET_CR0' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(404,1): warning C4273: 'CPU__GET_CR1': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(72,23): message : 'CPU__GET_CR1' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(409,1): warning C4273: 'CPU__SET_CR1': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(73,21): message : 'CPU__SET_CR1' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(414,1): warning C4273: 'CPU__GET_CR2': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(74,23): message : 'CPU__GET_CR2' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(419,1): warning C4273: 'CPU__SET_CR2': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(75,21): message : 'CPU__SET_CR2' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(424,1): warning C4273: 'CPU__GET_CR3': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(76,23): message : 'CPU__GET_CR3' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(429,1): warning C4273: 'CPU__SET_CR3': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(77,21): message : 'CPU__SET_CR3' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(434,1): warning C4273: 'CPU__GET_CR4': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(78,23): message : 'CPU__GET_CR4' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(439,1): warning C4273: 'CPU__SET_CR4': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(79,21): message : 'CPU__SET_CR4' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(444,1): warning C4273: 'CPU_GET_LDTR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(80,23): message : 'CPU_GET_LDTR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(449,1): warning C4273: 'CPU_SET_LDTR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(81,21): message : 'CPU_SET_LDTR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(454,1): warning C4273: 'CPU_GET_IDTR_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(91,23): message : 'CPU_GET_IDTR_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(459,1): warning C4273: 'CPU_SET_IDTR_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(92,21): message : 'CPU_SET_IDTR_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(464,1): warning C4273: 'CPU_GET_IDTR_BASE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(93,23): message : 'CPU_GET_IDTR_BASE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(469,1): warning C4273: 'CPU_SET_IDTR_BASE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(94,21): message : 'CPU_SET_IDTR_BASE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(474,1): warning C4273: 'CPU_GET_GDTR_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(95,23): message : 'CPU_GET_GDTR_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(479,1): warning C4273: 'CPU_SET_GDTR_LIMIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(96,21): message : 'CPU_SET_GDTR_LIMIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(484,1): warning C4273: 'CPU_GET_GDTR_BASE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(97,23): message : 'CPU_GET_GDTR_BASE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(489,1): warning C4273: 'CPU_SET_GDTR_BASE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(98,21): message : 'CPU_SET_GDTR_BASE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(494,1): warning C4273: 'CPU_GET_TR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(82,23): message : 'CPU_GET_TR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(499,1): warning C4273: 'CPU_SET_TR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(83,21): message : 'CPU_SET_TR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(504,1): warning C4273: 'CPU__GET_MXCSR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(84,23): message : 'CPU__GET_MXCSR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(509,1): warning C4273: 'CPU__SET_MXCSR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(85,21): message : 'CPU__SET_MXCSR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(514,1): warning C4273: 'CPU_SET_SS32': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(86,21): message : 'CPU_SET_SS32' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(519,1): warning C4273: 'CPU_SET_PM': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(87,21): message : 'CPU_SET_PM' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(706,1): warning C4273: 'CPU_INIT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(39,21): message : 'CPU_INIT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(714,1): warning C4273: 'CPU_RELEASE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(40,21): message : 'CPU_RELEASE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(719,1): warning C4273: 'CPU_FINISH': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(41,21): message : 'CPU_FINISH' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(724,1): warning C4273: 'CPU_RESET': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(42,21): message : 'CPU_RESET' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(758,1): warning C4273: 'CPU_EXECUTE': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(43,20): message : 'CPU_EXECUTE' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(804,1): warning C4273: 'CPU_EXECUTE_CC': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(63,20): message : 'CPU_EXECUTE_CC' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(828,1): warning C4273: 'CPU_SOFT_INTERRUPT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(44,21): message : 'CPU_SOFT_INTERRUPT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(833,1): warning C4273: 'CPU_JMP_FAR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(45,21): message : 'CPU_JMP_FAR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(853,1): warning C4273: 'CPU_CALL_FAR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(46,21): message : 'CPU_CALL_FAR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(878,1): warning C4273: 'CPU_IRET': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(47,21): message : 'CPU_IRET' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(887,1): warning C4273: 'CPU_PUSH': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(48,21): message : 'CPU_PUSH' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(900,1): warning C4273: 'CPU_POP': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(49,23): message : 'CPU_POP' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(914,1): warning C4273: 'CPU_PUSHF': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(50,21): message : 'CPU_PUSHF' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(919,1): warning C4273: 'CPU_READ_STACK': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(51,23): message : 'CPU_READ_STACK' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(933,1): warning C4273: 'CPU_WRITE_STACK': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(52,21): message : 'CPU_WRITE_STACK' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(946,1): warning C4273: 'CPU_LOAD_LDTR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(53,21): message : 'CPU_LOAD_LDTR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(951,1): warning C4273: 'CPU_LOAD_TR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(54,21): message : 'CPU_LOAD_TR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(956,1): warning C4273: 'CPU_TRANS_PAGING_ADDR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(55,23): message : 'CPU_TRANS_PAGING_ADDR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(970,1): warning C4273: 'CPU_SET_A20': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(60,21): message : 'CPU_SET_A20' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(975,1): warning C4273: 'CPU_REQ_INTERRUPT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(61,21): message : 'CPU_REQ_INTERRUPT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(984,1): warning C4273: 'CPU_REQ_INTERRUPT_IN': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(100,21): message : 'CPU_REQ_INTERRUPT_IN' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(990,1): warning C4273: 'CPU_REQ_NMINTERRUPT': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(62,21): message : 'CPU_REQ_NMINTERRUPT' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(997,1): warning C4273: 'CPU_REQ_NMINTERRUPT_IN': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(101,21): message : 'CPU_REQ_NMINTERRUPT_IN' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1002,1): warning C4273: 'CPU_SET_IRQ': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(59,21): message : 'CPU_SET_IRQ' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1035,32): warning C4273: 'CPU_GET_REGPTR': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1033,20): message : 'CPU_GET_REGPTR' の以前の定義を確認してください
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1066,33): warning C4273: 'CPU_EXECUTE_INFINITY': dll リンケージが一貫していません。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1065,21): message : 'CPU_EXECUTE_INFINITY' の以前の定義を確認してください
+  cpucore.cpp
+  cpumem.cpp
+  cpu.cpp
+  cpu_io.cpp
+  cpu_mem.cpp
+  ctrlxfer.cpp
+  debug.cpp
+  disasm.cpp
+  exception.cpp
+  groups.cpp
+  ia32.cpp
+  bin_arith.cpp
+  bit_byte.cpp
+  ctrl_trans.cpp
+  data_trans.cpp
+  dec_arith.cpp
+  flag_ctrl.cpp
+  fpu.cpp
+  fpdummy.cpp
+  コンパイル中...
+  fpemul_dosbox.cpp
+  fpemul_dosbox2.cpp
+  fpemul_softfloat.cpp
+  softfloat.cpp
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat-macros.h(447,12): warning C4244: '=': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat-macros.h(449,12): warning C4244: '=': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat-macros.h(657,40): warning C4244: '引数': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(109,9): warning C4244: '=': 'bits64' から 'int32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(661,16): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(1156,59): warning C4244: '引数': 'uint64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(1166,63): warning C4244: '引数': 'uint64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(1793,12): warning C4244: '=': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(1945,16): warning C4244: '=': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(2216,9): warning C4244: '=': 'bits64' から 'int32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(2345,12): warning C4244: '=': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(2915,38): warning C4244: '引数': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(3133,9): warning C4244: '=': 'bits64' から 'int32' への変換です。データが失われる可能性があります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386c\ia32\instructions\fpu\softfloat\softfloat.cpp(3256,46): warning C4244: '引数': 'bits64' から 'bits32' への変換です。データが失われる可能性があります。
+  logic_arith.cpp
+  misc_inst.cpp
+  3dnow.cpp
+  mmx.cpp
+  seg_reg.cpp
+  shift_rotate.cpp
+  sse2.cpp
+  sse3.cpp
+  sse.cpp
+  string_inst.cpp
+  system_inst.cpp
+  inst_table.cpp
+  interface.cpp
+  paging.cpp
+  resolve.cpp
+  segments.cpp
+  コンパイル中...
+  task.cpp
+     ライブラリ C:\Users\hiroki_repo\source\repos\GocaineP32\Release\ia32.lib とオブジェクト C:\Users\hiroki_repo\source\repos\GocaineP32\Release\ia32.exp を作成中
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(1062): warning C4715: 'CPU_GET_REGPTR': 値を返さないコントロール パスがあります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(186): warning C4715: 'read_io_word': 値を返さないコントロール パスがあります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(198): warning C4715: 'read_io_dword': 値を返さないコントロール パスがあります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(141): warning C4715: 'read_dword': 値を返さないコントロール パスがあります。
+C:\Users\hiroki_repo\source\repos\GocaineP32\ia32\np21_i386.cpp(129): warning C4715: 'read_word': 値を返さないコントロール パスがあります。
+  All 1938 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  ia32.vcxproj -> C:\Users\hiroki_repo\source\repos\GocaineP32\Release\ia32.dll
