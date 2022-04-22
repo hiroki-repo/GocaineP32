@@ -320,11 +320,11 @@ UINT8 debugger_read_byte(UINT32 byteaddress)
 #endif
 {
 #ifdef SUPPORT_GRAPHIC_SCREEN
-	if((byteaddress >= VGA_VRAM_TOP) && (byteaddress <= VGA_VRAM_LAST) && (mem[0x449] > 3)) {
+	if((byteaddress >= VGA_VRAM_TOP) && (byteaddress <= VGA_VRAM_LAST)/* && (mem[0x449] > 3)*/) {
 		return vga_read(byteaddress - VGA_VRAM_TOP, 1);
 	}
 #endif
-#if defined(HAS_I386)
+#if 1//defined(HAS_I386)
 	if(byteaddress < MAX_MEM) {
 		return mem[byteaddress];
 //	} else if((byteaddress & 0xfffffff0) == 0xfffffff0) {
@@ -706,7 +706,7 @@ void debugger_write_byte(UINT32 byteaddress, UINT8 data)
 			write_text_vram_byte(byteaddress - shadow_buffer_top_address, data);
 		}
 		mem[byteaddress] = data;
-#if defined(HAS_I386)
+#if 1//defined(HAS_I386)
 	} else if(byteaddress < MAX_MEM) {
 #else
 	} else {
@@ -21707,3 +21707,88 @@ void debugger_write_io_dword(UINT32 addr, UINT32 val)
 
 extern "C" UINT32 ia32memaccess(int prm_0, int prm_1, int prm_2) { addr4mac = prm_0 & (~CPU_ADRSMASK); switch (prm_2) { case 0:write_byte(addr4mac, prm_1); return 0; case 1:return read_byte(addr4mac); case 2:write_io_byte(prm_0, prm_1); return 0; case 3:return read_io_byte(prm_0); } return 0; }
 
+extern "C" void mbrun(int prm_0){
+	key_buf_char = new FIFO(256);
+	key_buf_scan = new FIFO(256);
+	key_buf_data = new FIFO(256);
+
+	hardware_init();
+	CPU_SET_MACTLFC(ia32memaccess);
+
+#ifdef USE_DEBUGGER
+	debugger_init();
+#endif
+
+#if defined(_MSC_VER) && (_MSC_VER >= 1400)
+		_set_invalid_parameter_handler((_invalid_parameter_handler)ignore_invalid_parameters);
+#endif
+		SetConsoleCtrlHandler(ctrl_handler, TRUE);
+
+		TIMECAPS caps;
+		timeGetDevCaps(&caps, sizeof(TIMECAPS));
+		timeBeginPeriod(caps.wPeriodMin);
+#ifdef USE_VRAM_THREAD
+		InitializeCriticalSection(&vram_crit_sect);
+		CloseHandle(CreateThread(NULL, 4096, vram_thread, NULL, 0, NULL));
+#endif
+#ifdef USE_DEBUGGER
+		CloseHandle(CreateThread(NULL, 0, debugger_thread, NULL, 0, NULL));
+		// wait until telnet client starts and connects to me
+		if (_access(debugger_get_ttermpro_path(), 0) == 0 ||
+			_access(debugger_get_ttermpro_x86_path(), 0) == 0 ||
+			_access(debugger_get_putty_path(), 0) == 0 ||
+			_access(debugger_get_putty_x86_path(), 0) == 0 ||
+			_access(debugger_get_telnet_path(), 0) == 0 ||
+			_access(debugger_get_telnet_x86_path(), 0) == 0) {
+			for (int i = 0; i < 100 && cli_socket == 0; i++) {
+				Sleep(100);
+			}
+		}
+#endif
+		hardware_run();
+#ifdef USE_VRAM_THREAD
+		vram_flush();
+		DeleteCriticalSection(&vram_crit_sect);
+#endif
+		timeEndPeriod(caps.wPeriodMin);
+
+		// restore console settings
+		if (restore_multibyte_cp) {
+			set_multibyte_code_page(multibyte_cp);
+		}
+		if (restore_input_cp) {
+			set_input_code_page(input_cp);
+		}
+		if (restore_output_cp) {
+			set_output_code_page(output_cp);
+		}
+		if (dwConsoleMode & (ENABLE_INSERT_MODE | ENABLE_QUICK_EDIT_MODE)) {
+			SetConsoleMode(GetStdHandle(STD_INPUT_HANDLE), dwConsoleMode | ENABLE_EXTENDED_FLAGS);
+		}
+		else {
+			SetConsoleMode(GetStdHandle(STD_INPUT_HANDLE), dwConsoleMode);
+		}
+
+		SetConsoleCtrlHandler(ctrl_handler, FALSE);
+	if (temp_file_created) {
+		DeleteFileA(temp_file_path);
+		temp_file_created = false;
+	}
+	hardware_finish();
+
+	if (key_buf_char != NULL) {
+		key_buf_char->release();
+		delete key_buf_char;
+		key_buf_char = NULL;
+	}
+	if (key_buf_scan != NULL) {
+		key_buf_scan->release();
+		delete key_buf_scan;
+		key_buf_scan = NULL;
+	}
+	if (key_buf_data != NULL) {
+		key_buf_data->release();
+		delete key_buf_data;
+		key_buf_data = NULL;
+	}
+}

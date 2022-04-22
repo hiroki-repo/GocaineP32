@@ -206,7 +206,7 @@ bool in_service_29h = false;
 	PC/AT hardware emulation
 ---------------------------------------------------------------------------- */
 
-//#define SUPPORT_GRAPHIC_SCREEN
+#define SUPPORT_GRAPHIC_SCREEN
 
 void hardware_init();
 void hardware_finish();

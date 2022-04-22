@@ -4,7 +4,8 @@ C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\msdos.cpp(26,35): warnin
 C:\Users\hiroki_repo\source\repos\GocaineP32\GocaineP32\cpudef.h(42,21): message : 'CPU_A20_LINE' の以前の定義を確認してください
      ライブラリ C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.lib とオブジェクト C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.exp を作成中
   コード生成しています。
-  Previous IPDB not found, fall back to full compilation.
-  All 66 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  3 of 111 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   コード生成が終了しました。
   GocaineP32.vcxproj -> C:\Users\hiroki_repo\source\repos\GocaineP32\Release\GocaineP32.exe
